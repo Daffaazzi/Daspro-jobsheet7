@@ -13,6 +13,8 @@ public class KafeDoWhile08 {
         int totalHarga;
 
         do {
+
+            
             System.out.print("Masukkan namape langgan: (ketik 'batal' untuk keluar)");
             namaPelanggan = sc.nextLine();
             if (namaPelanggan.equalsIgnoreCase("batal")) {

@@ -15,4 +15,19 @@ Jawaban:
 2. Mengapa variabel tertinggi diinisialisasi 0 dan terendah diinisialisasi 100? Apa yang terjadi jika variabel tertinggi diinisialisasi 100 dan terendah
 diinisialisasi 0?
 Jawaban:
-> 
+> alasannya : karena nilai siswa yang di asumsikan di rentang 0-100.
+> tertinggi : Karena diinisialisasi 0 supaya setiap nilai valid (>0) dapat menggantikan nilai tertinggi awal jika lebih besar.
+> terendah  : Karena diinisialisasi 100 supaya setiap nilai valid (<100>) dapat menggantikan terendah awal jika lebih kecil.
+
+3. Jelaskan fungsi dan alur kerja dari potongan kode berikut! 
+   if (nilai > tertinggi) {
+    tertinggi = nilai;
+   }
+   if (nilai < terendah>) {
+    terendah = nilai;
+   }
+Jawab:
+> untuk menyimpan nilai tertinggi dan rendah membandingkan nilai yang diimputkan.
+
+{===Percobaan 2===}
+
