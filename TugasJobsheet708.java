@@ -15,7 +15,6 @@ public class TugasJobsheet708 {
 
             if (jumlahTiket == 0) {
                 System.out.println("transaksi selesai.");
-                double diskon = 0;
                 break;
             }
             double totalHarga = jumlahTiket * HargaTiket;
@@ -38,13 +37,11 @@ public class TugasJobsheet708 {
             System.out.println("Diskon       : Rp " + diskon);
             System.out.println("Total Bayar  : Rp " + hargabayar);
             System.out.println("==============================\n");
+        }
 
-            System.out.println("=== TOTAL PENJUALAN HARIAN ===");
-        System.out.println("Total Tiket Terjual : " + totaltiket);
-        System.out.println("Total Penjualan     : Rp " + Penjualan);
+        sc.close();
 
          
         }
 
     }
-}
